@@ -21,7 +21,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         changeStatusBarColor()
 
+        // Hello there I will be commit
         setViewPager()
+
     }
 
 
