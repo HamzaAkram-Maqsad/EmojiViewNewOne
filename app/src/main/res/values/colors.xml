@@ -24,6 +24,7 @@
     <color name="colorAccentSecondary">#FF000000</color>
     <color name="colorAccentPrimary">#F6F6F6</color>
     <color name="colorAccent">#F27781</color>
+    <color name="colorGray">#E3DED1</color>
     <color name="colorAccentPrimaryWithOpacity">#B3F6F6F6</color>
     <color name="whiteWithOpacity">#B3FFFFFF</color>
     <color name="searchLayoutColor">#F0F2FC</color>
