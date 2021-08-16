@@ -36,5 +36,6 @@
     <color name="tertiaryTextColor">#000000</color>
     <color name="tertiaryTextColor_opposite">#F6F6F6</color>
     <color name="lightColor">#6A6A6A</color>
+    <color name="mustard">#F2AE1D</color>
 
 </resources>

@@ -9,22 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmojiView">
+        <activity android:name=".profile_activites.FeedbackActivity">
+
+        </activity>
+        <activity android:name=".profile_activites.AboutUsActivity" />
+        <activity android:name=".profile_activites.ContactUs">
+
+
+        </activity>
         <activity
             android:name=".SubjectActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".DashboardActivity"
             android:exported="true">
+
+        </activity>
+        <activity android:name=".MainActivity" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
-
-
         </activity>
     </application>
 
