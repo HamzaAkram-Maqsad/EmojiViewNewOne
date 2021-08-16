@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
         bottomNavAdapter.addFragment(ProfileFragment.newInstance())
         bottomNavAdapter.addFragment(HomeFragment.newInstance())
         binding.viewpager.adapter = bottomNavAdapter
+
+
+
+
         binding.viewpager.offscreenPageLimit = bottomNavAdapter.count - 1
         binding.bottomNavView.setOnItemSelectedListener {
             when (it.itemId) {
